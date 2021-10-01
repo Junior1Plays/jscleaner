@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(92, 92, 92);
+    font: normal 12pt Arial;
+    color: white;
+}
+#divPrograms {
+    text-align: center;
+}
+#DiscordFakeGame {
+    margin-bottom: 15px;
+}
+#JSCleaner {
+    margin-bottom: 15px;
+}
+#JSPScreen {
+    margin-bottom: 50px;
+}
+#back {
+    text-align: center;
+}
+#footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 20px;
+    background: rgb(92, 92, 92);
+ }

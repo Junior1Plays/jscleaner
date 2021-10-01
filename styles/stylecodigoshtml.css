@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(92, 92, 92);
+    font: normal 12pt Arial;
+    color: white;
+}
+#divCodes {
+    text-align: center;
+}
+#JSCaptcha {
+    margin-bottom: 15px;
+}
+#back {
+    text-align: center;
+}
+#footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 20px;
+    background: rgb(92, 92, 92);
+ }
