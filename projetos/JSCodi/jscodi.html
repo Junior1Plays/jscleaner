@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSCodi</title>
+
+    <h1 id="title" align="center">Seja Bem-Vindo(a) a <strong>Página Oficial</strong> do JSCodi!</h1>
+    <h2 id="subtitle" align="center">JSCodi é uma ferramenta de <strong>Codi</strong>ficação.</h2>
+    <br></br>
+    <div id="noSupported" align="center">
+        <p class="breakable-text"><p class="breakable-textX">❌</p> - <strong>Por enquanto</strong>, só há suporte para o Alfabeto Latino.</p>
+        <p class="breakable-text"><p class="breakable-textX">❌</p> - Não há suporte para unicode (<strong>Talvez</strong> no futuro seja adicionado).</p>
+    </div>
+    <br></br>
+    <div id="divFunctions" align="center">
+        Insira Texto: <input type="text" name="input" id="input"><br></br>
+        <input type="button" onclick="encode(document.querySelector('input[name=input]').value)" value="Codificar">
+        <br></br>
+        <input type="button" onclick="decode(document.querySelector('input[name=input]').value)" value="Decodificar">
+        <br></br>Resultado: <input type="text" disabled="" name="output" id="output">
+    </div>
+
+    <link rel="stylesheet" href="styles/stylejscodi.css">
+    <script src="javascripts/javascriptjscodi.js"></script>
+
+    <div id="divBack">
+        <input type="button" onclick="window.location.href='../../index.html'" value="Voltar">
+    </div>
+
+    <div id="footer">&copy; Junior Schueller 2021, Todos os direitos reservados.</div>
+</head>
+<body>
+    
+</body>
+</html>
