@@ -8,7 +8,7 @@ captchavalue.innerText = resultado
 
 function captchaverify() {
     if (captchauserinput.value == resultado) {
-        //insira uma ação aqui.
+        window.location.href = "https://junior1plays.github.io/jsprograms"
     } else {
         window.alert("Você errou o captcha! Tente novamente.")
         location.reload()
